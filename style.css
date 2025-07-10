@@ -22,6 +22,7 @@ nav {
 nav h1 {
   color:#4E47FF ;
   font: bolder;
+  font-size: 34px;
 
 
 }
@@ -32,6 +33,7 @@ nav h1 {
   border-radius: 5px;
   border: none;
   cursor: pointer;
+  font-size: 20px;
  
   
 }
@@ -72,5 +74,72 @@ nav h1 {
 .features-item p {
   font-size: 24px;
   color: rgb(37, 36, 50, 0.5);
+ 
+}
+/*2nd section*/
+.features-2{
+  background-color: #b2b0ee98;
+  border-radius: 40px;
+  margin: 0 10%;
+  padding: 50px 80px 50px 80px;
+}
+.features-2-heding{
+  text-align: center;
+  font: bold;
+  font-size: 38px;
+}
+.features-2-item{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20% 0 20%;
+
+}
+.features-2-item-1 h2{
+  font: bold;
+  font-size: 60px;
+  padding-bottom: 0%;
+  margin: 0%;
+  color: #4E47FF;
+}
+.features-2-item-1 p{
+  font-size: 24px;
+  color: rgb(37, 36, 50, 0.5);
+  padding: 0%;
+  margin: 0%;
+}
+/*section-3*/
+.features-3{
+margin-left: 5%;
+margin-right: 5%;
+}
+.features-3-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.features-3-heading{
+  text-align: center;
+  font: bold;
+  font-size: 42px;
+}
+.features-3-contaner{
+  border: gainsboro solid;
+  border-radius: 15px;
+  padding: 10px 10px;
+  margin: auto;
+}
+.features-3-contaner-item{
+  padding: 24px,0;
+}
+.reviewer{
+  display: flex;
+  gap: 20px;
+}
+.avter{
+  border-radius:100%;
+}
+.reviewer-1{
+  color: #757575;
  
 }
