@@ -1,8 +1,9 @@
 
 .raleway {
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  background-color: white;
+  background-color: rgba(245, 232, 232, 0.511);
 }
 /*header section*/
 .header {
@@ -21,6 +22,7 @@ nav {
 }
 nav h1 {
   color:#4E47FF ;
+  font: inter;
   font: bolder;
   font-size: 34px;
 
@@ -61,7 +63,7 @@ nav h1 {
   margin-bottom:100px;
 }
 .features-img{
-  width: 403px;
+  width: 403px ;
   height: 328px;
   border-radius: 50px;
   border: none;
@@ -109,8 +111,7 @@ nav h1 {
 }
 /*section-3*/
 .features-3{
-margin-left: 5%;
-margin-right: 5%;
+margin: 5% 5%;
 }
 .features-3-main{
   display: flex;
@@ -127,19 +128,87 @@ margin-right: 5%;
   border: gainsboro solid;
   border-radius: 15px;
   padding: 10px 10px;
-  margin: auto;
+  margin: auto ;
 }
 .features-3-contaner-item{
   padding: 24px,0;
 }
 .reviewer{
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 .avter{
   border-radius:100%;
+  width: 40px;
+  height: 40px;
 }
 .reviewer-1{
   color: #757575;
  
 }
+/*footer section*/
+.form-1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font: bold;
+  width: 30%;
+  height: auto;
+}
+.form-main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 10% 0 10%;
+}
+.text{
+  font: bold;
+  font-size: 77px;
+
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:10px;
+}
+.logo h2{
+  color: #4E47FF;
+  font-size:100px;
+  padding: 0;
+  margin: 0%;
+}
+.logo p{
+  color: rgba(137, 135, 161, 1);
+  font-size: medium;
+}
+.logo-text{
+ margin-right: 8px;
+ text-decoration: none;
+}
+ /*exta section  */
+ .exta-section{
+  background-color: white;
+  border-radius: 10px;
+  padding: 70px 150px 70px 150px;
+  margin: 0 10%;
+ }
+ .exta{
+  text-align: center;
+  
+  margin-bottom: 30px;
+ }
+ .exta-img{
+  border-radius: 20px;
+ }
+ .exta-img h2{
+  font: bold;
+  font-size: 50px;
+  ;
+ }
+ .exta-img-1{
+  text-align: center;
+ 
+ }
